@@ -38,3 +38,13 @@ git clone https://github.com/neonbjb/tortoise-tts.git
 > El autor no se hace responsable por cualquier uso indebido de este software.
 
 ---
+## 🛠️ Ejemplo de uso
+
+Una vez instalado todo, puedes generar una voz clonada con el siguiente comando:
+
+```bash
+python src/generator.py \
+  --audio audios_a_clonar/audio_prueba.m4a \
+  --text "Hola, soy Dani y esta es mi voz clonada." \
+  --name dani \
+  --output deepfake_dani.wav
