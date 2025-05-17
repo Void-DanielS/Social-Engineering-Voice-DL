@@ -21,6 +21,13 @@ Este proyecto permite clonar la voz de una persona a partir de un solo archivo d
 git clone https://github.com/DanielSitoV01D/Social-Engineering-Voice-DL
 cd Social-Engineering-Voice-DL
 
+## 📥 Requisito adicional: Clonar Tortoise TTS
+
+Este proyecto requiere que clones manualmente el repositorio de Tortoise TTS (no viene incluido por defecto):
+
+```bash
+git clone https://github.com/neonbjb/tortoise-tts.git
+
 ## ⚠️ Aviso Legal
 
 > ⚠️ **Advertencia de uso responsable:**  
