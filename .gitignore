@@ -172,3 +172,19 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+env310/
+
+# Entornos virtuales
+env/
+env310/
+
+# Archivos de salida
+*.wav
+*.mp3
+*.m4a
+output/
+
+# Configuración de sistema
+__pycache__/
+.DS_Store
+*.log
